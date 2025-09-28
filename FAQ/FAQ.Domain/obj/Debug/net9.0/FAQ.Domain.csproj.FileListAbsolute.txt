@@ -1,0 +1,11 @@
+D:\Me\program\FAQ\FAQ.Domain\bin\Debug\net9.0\FAQ.Domain.deps.json
+D:\Me\program\FAQ\FAQ.Domain\bin\Debug\net9.0\FAQ.Domain.dll
+D:\Me\program\FAQ\FAQ.Domain\bin\Debug\net9.0\FAQ.Domain.pdb
+D:\Me\program\FAQ\FAQ.Domain\obj\Debug\net9.0\FAQ.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Me\program\FAQ\FAQ.Domain\obj\Debug\net9.0\FAQ.Domain.AssemblyInfoInputs.cache
+D:\Me\program\FAQ\FAQ.Domain\obj\Debug\net9.0\FAQ.Domain.AssemblyInfo.cs
+D:\Me\program\FAQ\FAQ.Domain\obj\Debug\net9.0\FAQ.Domain.csproj.CoreCompileInputs.cache
+D:\Me\program\FAQ\FAQ.Domain\obj\Debug\net9.0\FAQ.Domain.dll
+D:\Me\program\FAQ\FAQ.Domain\obj\Debug\net9.0\refint\FAQ.Domain.dll
+D:\Me\program\FAQ\FAQ.Domain\obj\Debug\net9.0\FAQ.Domain.pdb
+D:\Me\program\FAQ\FAQ.Domain\obj\Debug\net9.0\ref\FAQ.Domain.dll

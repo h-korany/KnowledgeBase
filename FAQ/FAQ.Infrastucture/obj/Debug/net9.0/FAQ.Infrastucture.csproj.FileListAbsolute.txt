@@ -1,0 +1,15 @@
+D:\Me\program\FAQ\FAQ.Infrastucture\bin\Debug\net9.0\FAQ.Infrastucture.deps.json
+D:\Me\program\FAQ\FAQ.Infrastucture\bin\Debug\net9.0\FAQ.Infrastucture.dll
+D:\Me\program\FAQ\FAQ.Infrastucture\bin\Debug\net9.0\FAQ.Infrastucture.pdb
+D:\Me\program\FAQ\FAQ.Infrastucture\obj\Debug\net9.0\FAQ.Infrastucture.GeneratedMSBuildEditorConfig.editorconfig
+D:\Me\program\FAQ\FAQ.Infrastucture\obj\Debug\net9.0\FAQ.Infrastucture.AssemblyInfoInputs.cache
+D:\Me\program\FAQ\FAQ.Infrastucture\obj\Debug\net9.0\FAQ.Infrastucture.AssemblyInfo.cs
+D:\Me\program\FAQ\FAQ.Infrastucture\obj\Debug\net9.0\FAQ.Infrastucture.csproj.CoreCompileInputs.cache
+D:\Me\program\FAQ\FAQ.Infrastucture\obj\Debug\net9.0\FAQ.Infrastucture.dll
+D:\Me\program\FAQ\FAQ.Infrastucture\obj\Debug\net9.0\refint\FAQ.Infrastucture.dll
+D:\Me\program\FAQ\FAQ.Infrastucture\obj\Debug\net9.0\FAQ.Infrastucture.pdb
+D:\Me\program\FAQ\FAQ.Infrastucture\obj\Debug\net9.0\ref\FAQ.Infrastucture.dll
+D:\Me\program\FAQ\FAQ.Infrastucture\obj\Debug\net9.0\FAQ.Infrastucture.csproj.AssemblyReference.cache
+D:\Me\program\FAQ\FAQ.Infrastucture\bin\Debug\net9.0\FAQ.Domain.dll
+D:\Me\program\FAQ\FAQ.Infrastucture\bin\Debug\net9.0\FAQ.Domain.pdb
+D:\Me\program\FAQ\FAQ.Infrastucture\obj\Debug\net9.0\FAQ.Infr.A687BF16.Up2Date

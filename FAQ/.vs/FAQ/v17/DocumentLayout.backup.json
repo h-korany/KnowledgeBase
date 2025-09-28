@@ -1,0 +1,636 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Me\\program\\FAQ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|d:\\me\\program\\faq\\faq.presentation\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|solutionrelative:faq.presentation\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|d:\\me\\program\\faq\\faq.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|solutionrelative:faq.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|d:\\me\\program\\faq\\faq.presentation\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|solutionrelative:faq.presentation\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|d:\\me\\program\\faq\\faq.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|solutionrelative:faq.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A1677-D1EF-40B2-A835-75D9721C0A70}|FAQ.Infrastucture\\FAQ.Infrastucture.csproj|d:\\me\\program\\faq\\faq.infrastucture\\repositories\\knowledgebaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840A1677-D1EF-40B2-A835-75D9721C0A70}|FAQ.Infrastucture\\FAQ.Infrastucture.csproj|solutionrelative:faq.infrastucture\\repositories\\knowledgebaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A1677-D1EF-40B2-A835-75D9721C0A70}|FAQ.Infrastucture\\FAQ.Infrastucture.csproj|d:\\me\\program\\faq\\faq.infrastucture\\repositories\\questionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840A1677-D1EF-40B2-A835-75D9721C0A70}|FAQ.Infrastucture\\FAQ.Infrastucture.csproj|solutionrelative:faq.infrastucture\\repositories\\questionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|d:\\me\\program\\faq\\faq.application\\services\\knowledgebaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|solutionrelative:faq.application\\services\\knowledgebaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35FCB03-BDEC-4104-AF32-22C2D622CC93}|FAQ.Domain\\FAQ.Domain.csproj|d:\\me\\program\\faq\\faq.domain\\insterfaces\\iknowledgebaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35FCB03-BDEC-4104-AF32-22C2D622CC93}|FAQ.Domain\\FAQ.Domain.csproj|solutionrelative:faq.domain\\insterfaces\\iknowledgebaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|d:\\me\\program\\faq\\faq.application\\dtos\\knowledgebaseanalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|solutionrelative:faq.application\\dtos\\knowledgebaseanalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35FCB03-BDEC-4104-AF32-22C2D622CC93}|FAQ.Domain\\FAQ.Domain.csproj|d:\\me\\program\\faq\\faq.domain\\insterfaces\\iquestionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35FCB03-BDEC-4104-AF32-22C2D622CC93}|FAQ.Domain\\FAQ.Domain.csproj|solutionrelative:faq.domain\\insterfaces\\iquestionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|d:\\me\\program\\faq\\faq.application\\models\\questionactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|solutionrelative:faq.application\\models\\questionactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|d:\\me\\program\\faq\\faq.presentation\\models\\analysisrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|solutionrelative:faq.presentation\\models\\analysisrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35FCB03-BDEC-4104-AF32-22C2D622CC93}|FAQ.Domain\\FAQ.Domain.csproj|d:\\me\\program\\faq\\faq.domain\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35FCB03-BDEC-4104-AF32-22C2D622CC93}|FAQ.Domain\\FAQ.Domain.csproj|solutionrelative:faq.domain\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|d:\\me\\program\\faq\\faq.application\\interfaces\\iknowledgebaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|solutionrelative:faq.application\\interfaces\\iknowledgebaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|d:\\me\\program\\faq\\faq.presentation\\models\\aiassistantrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|solutionrelative:faq.presentation\\models\\aiassistantrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|d:\\me\\program\\faq\\faq.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|solutionrelative:faq.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|d:\\me\\program\\faq\\faq.presentation\\models\\openaiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|solutionrelative:faq.presentation\\models\\openaiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|d:\\me\\program\\faq\\faq.presentation\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|solutionrelative:faq.presentation\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|d:\\me\\program\\faq\\faq.application\\services\\questionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|solutionrelative:faq.application\\services\\questionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35FCB03-BDEC-4104-AF32-22C2D622CC93}|FAQ.Domain\\FAQ.Domain.csproj|d:\\me\\program\\faq\\faq.domain\\entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35FCB03-BDEC-4104-AF32-22C2D622CC93}|FAQ.Domain\\FAQ.Domain.csproj|solutionrelative:faq.domain\\entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A1677-D1EF-40B2-A835-75D9721C0A70}|FAQ.Infrastucture\\FAQ.Infrastucture.csproj|d:\\me\\program\\faq\\faq.infrastucture\\data\\faqcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840A1677-D1EF-40B2-A835-75D9721C0A70}|FAQ.Infrastucture\\FAQ.Infrastucture.csproj|solutionrelative:faq.infrastucture\\data\\faqcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|d:\\me\\program\\faq\\faq.application\\dtos\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|solutionrelative:faq.application\\dtos\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|d:\\me\\program\\faq\\faq.application\\dtos\\answerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|solutionrelative:faq.application\\dtos\\answerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|d:\\me\\program\\faq\\faq.application\\interfaces\\iquestionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330D7EDB-E284-4CAE-B98A-D6D0ABD62F3F}|FAQ.Application\\FAQ.Application.csproj|solutionrelative:faq.application\\interfaces\\iquestionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|d:\\me\\program\\faq\\faq.presentation\\models\\applicationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|solutionrelative:faq.presentation\\models\\applicationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|d:\\me\\program\\faq\\faq.presentation\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A404A9B-0ECD-4885-BC7B-BF8C7D85E6B6}|FAQ.Presentation\\FAQ.Presentation.csproj|solutionrelative:faq.presentation\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Me\\program\\FAQ\\FAQ.Presentation\\Migrations\\20250922174903_identtiyMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FAQ.Presentation\\Migrations\\20250922174903_identtiyMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\FaqContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FAQ.Presentation\\Models\\FaqContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 40,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5e929736-0e81-4d52-a78e-546a1649faca}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d562c6a0-d2fe-4c19-a8b3-e5cbc09bf375}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d3b09462-361e-4675-acc6-e0732f84d521}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ec2c1c6c-cecc-4f7a-869e-9a8f55540944}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{78551d08-65d2-3640-ad02-4c3e4d338b0d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1096179782:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1ce3aef-c78d-49ee-b72b-ec1fbc908313}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2142164794:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:712571587:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuestionsController.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Controllers\\QuestionsController.cs",
+              "RelativeDocumentMoniker": "FAQ.Presentation\\Controllers\\QuestionsController.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Controllers\\QuestionsController.cs",
+              "RelativeToolTip": "FAQ.Presentation\\Controllers\\QuestionsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAlwCEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T06:05:36.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "FAQ.Presentation\\Program.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Program.cs",
+              "RelativeToolTip": "FAQ.Presentation\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T21:06:29.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KnowledgeBaseRepository.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Infrastucture\\Repositories\\KnowledgeBaseRepository.cs",
+              "RelativeDocumentMoniker": "FAQ.Infrastucture\\Repositories\\KnowledgeBaseRepository.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Infrastucture\\Repositories\\KnowledgeBaseRepository.cs",
+              "RelativeToolTip": "FAQ.Infrastucture\\Repositories\\KnowledgeBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T19:57:26.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuestionsRepository.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Infrastucture\\Repositories\\QuestionsRepository.cs",
+              "RelativeDocumentMoniker": "FAQ.Infrastucture\\Repositories\\QuestionsRepository.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Infrastucture\\Repositories\\QuestionsRepository.cs",
+              "RelativeToolTip": "FAQ.Infrastucture\\Repositories\\QuestionsRepository.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowIQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T13:41:53.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FAQ.Presentation\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "FAQ.Presentation\\Controllers\\UserController.cs*",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAG8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T20:35:12.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "FAQ.Presentation\\Models\\RegisterModel.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\RegisterModel.cs*",
+              "RelativeToolTip": "FAQ.Presentation\\Models\\RegisterModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T20:45:16.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QuestionActivity.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Application\\Models\\QuestionActivity.cs",
+              "RelativeDocumentMoniker": "FAQ.Application\\Models\\QuestionActivity.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Application\\Models\\QuestionActivity.cs",
+              "RelativeToolTip": "FAQ.Application\\Models\\QuestionActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T10:39:44.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "KnowledgeBaseAnalysis.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Application\\DTOs\\KnowledgeBaseAnalysis.cs",
+              "RelativeDocumentMoniker": "FAQ.Application\\DTOs\\KnowledgeBaseAnalysis.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Application\\DTOs\\KnowledgeBaseAnalysis.cs",
+              "RelativeToolTip": "FAQ.Application\\DTOs\\KnowledgeBaseAnalysis.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIA2wAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T10:00:01.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KnowledgeBaseService.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Application\\Services\\KnowledgeBaseService.cs",
+              "RelativeDocumentMoniker": "FAQ.Application\\Services\\KnowledgeBaseService.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Application\\Services\\KnowledgeBaseService.cs",
+              "RelativeToolTip": "FAQ.Application\\Services\\KnowledgeBaseService.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAAAJQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T09:46:43.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IKnowledgeBaseRepository.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Domain\\Insterfaces\\IKnowledgeBaseRepository.cs",
+              "RelativeDocumentMoniker": "FAQ.Domain\\Insterfaces\\IKnowledgeBaseRepository.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Domain\\Insterfaces\\IKnowledgeBaseRepository.cs",
+              "RelativeToolTip": "FAQ.Domain\\Insterfaces\\IKnowledgeBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T19:55:57.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IQuestionsRepository.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Domain\\Insterfaces\\IQuestionsRepository.cs",
+              "RelativeDocumentMoniker": "FAQ.Domain\\Insterfaces\\IQuestionsRepository.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Domain\\Insterfaces\\IQuestionsRepository.cs",
+              "RelativeToolTip": "FAQ.Domain\\Insterfaces\\IQuestionsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T13:40:15.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AIAssistantRequest.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\AIAssistantRequest.cs",
+              "RelativeDocumentMoniker": "FAQ.Presentation\\Models\\AIAssistantRequest.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\AIAssistantRequest.cs",
+              "RelativeToolTip": "FAQ.Presentation\\Models\\AIAssistantRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T05:56:00.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AnalysisRequest.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\AnalysisRequest.cs",
+              "RelativeDocumentMoniker": "FAQ.Presentation\\Models\\AnalysisRequest.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\AnalysisRequest.cs",
+              "RelativeToolTip": "FAQ.Presentation\\Models\\AnalysisRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T05:57:07.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Question.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Domain\\Entities\\Question.cs",
+              "RelativeDocumentMoniker": "FAQ.Domain\\Entities\\Question.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Domain\\Entities\\Question.cs",
+              "RelativeToolTip": "FAQ.Domain\\Entities\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T07:02:07.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IKnowledgeBaseService.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Application\\Interfaces\\IKnowledgeBaseService.cs",
+              "RelativeDocumentMoniker": "FAQ.Application\\Interfaces\\IKnowledgeBaseService.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Application\\Interfaces\\IKnowledgeBaseService.cs",
+              "RelativeToolTip": "FAQ.Application\\Interfaces\\IKnowledgeBaseService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T05:58:47.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OpenAIConfig.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\OpenAIConfig.cs",
+              "RelativeDocumentMoniker": "FAQ.Presentation\\Models\\OpenAIConfig.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\OpenAIConfig.cs",
+              "RelativeToolTip": "FAQ.Presentation\\Models\\OpenAIConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T13:11:06.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "FAQ.Presentation\\appsettings.json",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\appsettings.json",
+              "RelativeToolTip": "FAQ.Presentation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T12:50:10.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "FAQ.Presentation\\Models\\Message.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\Message.cs",
+              "RelativeToolTip": "FAQ.Presentation\\Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T13:10:12.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FaqContext.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Infrastucture\\Data\\FaqContext.cs",
+              "RelativeDocumentMoniker": "FAQ.Infrastucture\\Data\\FaqContext.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Infrastucture\\Data\\FaqContext.cs",
+              "RelativeToolTip": "FAQ.Infrastucture\\Data\\FaqContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwCwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T07:00:55.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Domain\\Entities\\Answer.cs",
+              "RelativeDocumentMoniker": "FAQ.Domain\\Entities\\Answer.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Domain\\Entities\\Answer.cs",
+              "RelativeToolTip": "FAQ.Domain\\Entities\\Answer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T07:01:28.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "QuestionsService.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Application\\Services\\QuestionsService.cs",
+              "RelativeDocumentMoniker": "FAQ.Application\\Services\\QuestionsService.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Application\\Services\\QuestionsService.cs",
+              "RelativeToolTip": "FAQ.Application\\Services\\QuestionsService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvycAAACSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T13:45:08.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "QuestionDto.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Application\\DTOs\\QuestionDto.cs",
+              "RelativeDocumentMoniker": "FAQ.Application\\DTOs\\QuestionDto.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Application\\DTOs\\QuestionDto.cs",
+              "RelativeToolTip": "FAQ.Application\\DTOs\\QuestionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T05:19:34.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AnswerDto.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Application\\DTOs\\AnswerDto.cs",
+              "RelativeDocumentMoniker": "FAQ.Application\\DTOs\\AnswerDto.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Application\\DTOs\\AnswerDto.cs",
+              "RelativeToolTip": "FAQ.Application\\DTOs\\AnswerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T05:20:25.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IQuestionsService.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Application\\Interfaces\\IQuestionsService.cs",
+              "RelativeDocumentMoniker": "FAQ.Application\\Interfaces\\IQuestionsService.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Application\\Interfaces\\IQuestionsService.cs",
+              "RelativeToolTip": "FAQ.Application\\Interfaces\\IQuestionsService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADgvxIAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T13:44:06.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250922174903_identtiyMigration.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Migrations\\20250922174903_identtiyMigration.cs",
+              "RelativeDocumentMoniker": "FAQ.Presentation\\Migrations\\20250922174903_identtiyMigration.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Migrations\\20250922174903_identtiyMigration.cs",
+              "RelativeToolTip": "FAQ.Presentation\\Migrations\\20250922174903_identtiyMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T17:49:03.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ApplicationSettings.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\ApplicationSettings.cs",
+              "RelativeDocumentMoniker": "FAQ.Presentation\\Models\\ApplicationSettings.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\ApplicationSettings.cs",
+              "RelativeToolTip": "FAQ.Presentation\\Models\\ApplicationSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T20:44:53.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "FAQ.Presentation\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\LoginModel.cs",
+              "RelativeToolTip": "FAQ.Presentation\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T20:45:04.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FaqContext.cs",
+              "DocumentMoniker": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\FaqContext.cs",
+              "RelativeDocumentMoniker": "FAQ.Presentation\\Models\\FaqContext.cs",
+              "ToolTip": "D:\\Me\\program\\FAQ\\FAQ.Presentation\\Models\\FaqContext.cs",
+              "RelativeToolTip": "FAQ.Presentation\\Models\\FaqContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T06:52:34.937Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

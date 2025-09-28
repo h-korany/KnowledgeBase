@@ -1,0 +1,17 @@
+D:\Me\program\FAQ\FAQ.Application\bin\Debug\net9.0\FAQ.Application.deps.json
+D:\Me\program\FAQ\FAQ.Application\bin\Debug\net9.0\FAQ.Application.dll
+D:\Me\program\FAQ\FAQ.Application\bin\Debug\net9.0\FAQ.Application.pdb
+D:\Me\program\FAQ\FAQ.Application\obj\Debug\net9.0\FAQ.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Me\program\FAQ\FAQ.Application\obj\Debug\net9.0\FAQ.Application.AssemblyInfoInputs.cache
+D:\Me\program\FAQ\FAQ.Application\obj\Debug\net9.0\FAQ.Application.AssemblyInfo.cs
+D:\Me\program\FAQ\FAQ.Application\obj\Debug\net9.0\FAQ.Application.csproj.CoreCompileInputs.cache
+D:\Me\program\FAQ\FAQ.Application\obj\Debug\net9.0\FAQ.Application.dll
+D:\Me\program\FAQ\FAQ.Application\obj\Debug\net9.0\refint\FAQ.Application.dll
+D:\Me\program\FAQ\FAQ.Application\obj\Debug\net9.0\FAQ.Application.pdb
+D:\Me\program\FAQ\FAQ.Application\obj\Debug\net9.0\ref\FAQ.Application.dll
+D:\Me\program\FAQ\FAQ.Application\bin\Debug\net9.0\FAQ.Domain.dll
+D:\Me\program\FAQ\FAQ.Application\bin\Debug\net9.0\FAQ.Domain.pdb
+D:\Me\program\FAQ\FAQ.Application\obj\Debug\net9.0\FAQ.Application.csproj.AssemblyReference.cache
+D:\Me\program\FAQ\FAQ.Application\obj\Debug\net9.0\FAQ.Appl.8F74D78C.Up2Date
+D:\Me\program\FAQ\FAQ.Application\bin\Debug\net9.0\FAQ.Infrastucture.dll
+D:\Me\program\FAQ\FAQ.Application\bin\Debug\net9.0\FAQ.Infrastucture.pdb
