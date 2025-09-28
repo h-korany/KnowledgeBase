@@ -1,0 +1,63 @@
+<div class="question-list-header">
+  <h1>Community Questions</h1>
+  <div class="filters">
+    <div class="search-container">
+      <span class="search-icon">search</span>
+      <input 
+        type="text" 
+        placeholder="Search questions..." 
+        [(ngModel)]="searchQuery"
+        (input)="filterQuestions()"
+        class="search-input"
+      >
+    </div>
+    <select 
+      [(ngModel)]="filterCategory" 
+      (change)="filterQuestions()"
+      class="category-filter"
+    >
+      <option value="">All Categories</option>
+      <option value="IT">IT</option>
+      <option value="HR">HR</option>
+      <option value="Finance">Finance</option>
+      <option value="Operations">Operations</option>
+    </select>
+  </div>
+</div>
+
+<div class="loading-spinner" *ngIf="loading">
+  <div class="spinner"></div>
+</div>
+
+<div class="error-message" *ngIf="error && !loading">
+  <span class="error-icon">error</span>
+  <p>{{ error }}</p>
+</div>
+
+<div class="questions-container" *ngIf="!loading && !error">
+  <div class="empty-state" *ngIf="filteredQuestions.length === 0">
+    <span class="empty-icon">help_outline</span>
+    <p>No questions found. Be the first to ask a question!</p>
+  </div>
+
+  <div 
+    *ngFor="let question of filteredQuestions" 
+    class="question-card"
+    (click)="viewQuestion(question.id)"
+  >
+    <div class="question-icon">
+      <span>help_outline</span>
+    </div>
+    <div class="question-content">
+      <h3 class="question-title">{{ question.title }}</h3>
+      <p class="question-preview">{{ question.content | truncate:150 }}</p>
+      
+      <div class="question-meta">
+        <span class="answers-count">{{ question.answers?.length }} answers</span>
+      </div>
+    </div>
+    <div class="view-details">
+      <span>arrow_forward</span>
+    </div>
+  </div>
+</div>

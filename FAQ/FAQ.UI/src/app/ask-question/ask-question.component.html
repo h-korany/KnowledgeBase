@@ -1,0 +1,86 @@
+<div class="ask-question-container">
+  <button class="back-button" (click)="cancel()">
+    <span class="material-icons">arrow_back</span>
+    Back to Questions
+  </button>
+
+  <div class="ask-question-card">
+    <h1>Ask a Question</h1>
+    
+    <form [formGroup]="questionForm" (ngSubmit)="submitQuestion()" class="question-form">
+      <div class="form-group">
+        <label for="title">Title</label>
+        <p class="field-description">Be specific and imagine you're asking a question to another person</p>
+        <input
+          id="title"
+          type="text"
+          formControlName="title"
+          placeholder="e.g., How do I reset my password?"
+          class="form-input"
+          [class.error]="hasTitleError()"
+        >
+        <div class="error-message" *ngIf="hasTitleError()">
+          {{ getTitleErrorMessage() }}
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="content">Details</label>
+        <p class="field-description">Include all the information someone would need to answer your question</p>
+        <textarea
+          id="content"
+          formControlName="content"
+          placeholder="Describe your question in detail..."
+          rows="8"
+          class="form-textarea"
+          [class.error]="hasContentError()"
+        ></textarea>
+        <div class="error-message" *ngIf="hasContentError()">
+          {{ getContentErrorMessage() }}
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="tags">Tags</label>
+        <p class="field-description">Add up to 5 tags to describe what your question is about</p>
+        <div class="tags-input-container">
+          <div class="tags-display">
+            <span *ngFor="let tag of questionForm.get('tags')?.value" class="tag">
+              {{ tag }}
+              <span class="remove-tag" (click)="removeTag(tag)">×</span>
+            </span>
+          </div>
+          <input
+            id="tags"
+            type="text"
+            [(ngModel)]="tagInput"
+            [ngModelOptions]="{standalone: true}"
+            (keydown)="addTag($event)"
+            placeholder="Type to add tags (press Enter to add)"
+            class="tags-input"
+          >
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button type="button" class="cancel-button" (click)="cancel()" [disabled]="loading">
+          Cancel
+        </button>
+        <button type="submit" class="submit-button" [disabled]="questionForm.invalid || loading">
+          <span *ngIf="!loading">Post Your Question</span>
+          <span *ngIf="loading">Posting...</span>
+        </button>
+      </div>
+    </form>
+
+    <div class="loading-spinner" *ngIf="loading">
+      <div class="spinner"></div>
+      <p>Posting your question...</p>
+    </div>
+
+    <div class="error-message" *ngIf="error && !loading">
+      <span class="material-icons">error</span>
+      <p>{{ error }}</p>
+    </div>
+  </div>
+</div>

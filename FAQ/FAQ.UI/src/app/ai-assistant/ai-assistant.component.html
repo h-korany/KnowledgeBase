@@ -1,0 +1,104 @@
+<div class="ai-assistant-container">
+  <!-- Header Section -->
+  <div class="header-section">
+    <h1>AI Knowledge Assistant</h1>
+    <p class="subtitle">Get insights from our knowledge base</p>
+    <!-- <mat-line></mat-line> -->
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- Left Column - Ask AI Section -->
+    <div class="left-column">
+      <div class="ask-ai-section">
+        <h2>Ask AI</h2>
+        
+        <!-- Search/Question Input -->
+        <form [formGroup]="aiForm" (ngSubmit)="askAI()" class="search-form">
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>What would you like to know?</mat-label>
+            <textarea matInput formControlName="query" placeholder="Ask about common issues, trends, or specific topics..." rows="3"></textarea>
+            <mat-hint>Describe your question in detail for better results</mat-hint>
+            <mat-error *ngIf="isFieldInvalid('query')">{{ getQueryError() }}</mat-error>
+          </mat-form-field>
+
+          <!-- Category Selection -->
+          <mat-form-field appearance="outline" class="full-width" *ngIf="availableCategories.length > 0">
+            <mat-label>Category (optional)</mat-label>
+            <mat-select formControlName="category">
+              <mat-option value="">All Categories</mat-option>
+              <mat-option *ngFor="let category of availableCategories" [value]="category">
+                {{ category }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <!-- Action Buttons -->
+          <div class="action-buttons">
+            <button type="button" mat-stroked-button color="warn" (click)="resetForm()" [disabled]="loading">
+              Reset
+            </button>
+            <button type="submit" mat-raised-button color="primary" [disabled]="!canSubmit" class="ask-button">
+              <mat-spinner diameter="20" *ngIf="loading" class="button-spinner"></mat-spinner>
+              Ask AI Assistant
+            </button>
+          </div>
+        </form>
+
+        <!-- Search Results -->
+        <div *ngIf="hasSearchResults" class="search-results">
+          <h4>Suggested Questions:</h4>
+          <mat-card *ngFor="let question of searchResults" class="suggestion-card" (click)="useSearchResult(question)">
+            <mat-card-content>
+              {{ question.title }}
+            </mat-card-content>
+          </mat-card>
+        </div>
+
+        <!-- AI Response -->
+        <div *ngIf="response" class="ai-response">
+          <h3>AI Response:</h3>
+          <mat-card class="response-card">
+            <mat-card-content>
+              <p>{{ response.response }}</p>
+              <div *ngIf="relatedQuestions.length > 0" class="related-questions">
+                <h4>Related Questions:</h4>
+                <div *ngFor="let question of relatedQuestions" class="related-question" (click)="viewQuestion(question.id)">
+                  {{ question.title }}
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column - Recent Questions -->
+    <div class="right-column">
+      <div class="recent-questions-section">
+        <h2>Recent Questions</h2>
+        <p class="suggestion-text">Try asking about these recent topics:</p>
+        
+        <div class="recent-questions-list">
+          <mat-card *ngFor="let question of recentQuestions" class="recent-question-card" (click)="viewQuestion(question.id)">
+            <mat-card-content>
+              {{ question.title }}
+            </mat-card-content>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tabs for Additional Features -->
+  <mat-tab-group (selectedTabChange)="setActiveTab($event.index === 0 ? 'chat' : 'analysis')" class="tabs-section">
+    <mat-tab label="Chat with AI">
+      <!-- Chat content is already in the main section -->
+    </mat-tab>
+    <mat-tab label="Knowledge Base Analysis">
+      <div *ngIf="activeTab === 'analysis'" class="analysis-tab">
+        <!-- Your analysis content here -->
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>

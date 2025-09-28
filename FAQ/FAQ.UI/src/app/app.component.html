@@ -1,0 +1,33 @@
+<!-- app.component.html -->
+<!-- Only show navigation when not on login/register pages -->
+<nav class="navbar" *ngIf="showNavigation && currentUser">
+  <div class="nav-container">
+    <h1 class="nav-title">{{ title }}</h1>
+    <div class="nav-actions">
+      <!-- AI Assistant Button - Only for managers -->
+      <button *ngIf="isManager" class="ai-assistant-btn" (click)="openAIAssistant()">
+        AI Assistant
+      </button>
+      
+      <!-- Ask Question Button -->
+      <button class="ask-question-btn" routerLink="/ask">
+        Ask Question
+      </button>
+      
+      <!-- User info and logout -->
+      <div class="user-info">
+        <span class="user-role" [class.manager]="isManager" [class.employee]="!isManager">
+          {{ currentUser.email }} ({{ isManager ? 'Manager' : 'Employee' }})
+        </span>
+        <button class="logout-btn" (click)="logout()">Logout</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="main-content">
+  <router-outlet></router-outlet>
+</main>
+
+<!-- AI Assistant (only show when navigation is visible) -->
+<app-ai-assistant *ngIf="showAIAssistant && showNavigation && isManager" (close)="showAIAssistant = false"></app-ai-assistant>

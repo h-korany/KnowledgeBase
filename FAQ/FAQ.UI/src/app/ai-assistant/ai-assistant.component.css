@@ -1,0 +1,104 @@
+.ai-assistant-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header-section h1 {
+  color: #3f51b5;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 16px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.ask-button {
+  min-width: 150px;
+}
+
+.button-spinner {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.suggestion-card, .recent-question-card {
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.suggestion-card:hover, .recent-question-card:hover {
+  background-color: #f5f5f5;
+  transform: translateY(-2px);
+}
+
+.search-results, .ai-response {
+  margin-top: 20px;
+}
+
+.response-card {
+  background-color: #f8f9fa;
+  border-left: 4px solid #3f51b5;
+}
+
+.related-questions {
+  margin-top: 15px;
+}
+
+.related-question {
+  padding: 8px;
+  margin: 5px 0;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+  border-left: 3px solid #ff9800;
+}
+
+.recent-questions-list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.tabs-section {
+  margin-top: 30px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .ai-assistant-container {
+    padding: 10px;
+  }
+}

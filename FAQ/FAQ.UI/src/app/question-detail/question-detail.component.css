@@ -1,0 +1,284 @@
+.question-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.loading-section, .error-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.error-card {
+  background-color: #ffebee;
+  text-align: center;
+}
+
+.question-content {
+  margin-top: 20px;
+}
+
+.question-text {
+  font-size: 16px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.answers-section {
+  margin-top: 30px;
+}
+
+.answer-card {
+  margin-bottom: 20px;
+  border-left: 4px solid #3f51b5;
+}
+
+.answer-text {
+  font-size: 15px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.answer-meta {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+  color: #666;
+}
+
+.no-answers-card {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.no-answers-card mat-icon {
+  font-size: 48px;
+  width: 48px;
+  height: 48px;
+  color: #999;
+}
+
+.answered-badge {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.unanswered-badge {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.debug-info {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.debug-info pre {
+  font-size: 12px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+.question-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.loading-section, .error-section, .ai-error-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.error-card, .ai-summary-card {
+  text-align: center;
+}
+
+.ai-summary-section {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.ai-summary-button {
+  margin: 10px 0;
+}
+
+.ai-summary-card {
+  margin-bottom: 20px;
+  border-left: 4px solid #ff9800;
+  background-color: #fff3e0;
+}
+
+.ai-summary-card .mat-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-ai-summary {
+  margin-left: auto;
+}
+
+.loading-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.ai-summary-content {
+  font-size: 15px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  margin-bottom: 15px;
+}
+
+.ai-summary-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.question-card {
+  margin-top: 20px;
+}
+
+.question-text {
+  font-size: 16px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.answers-section {
+  margin-top: 30px;
+}
+
+.answer-card {
+  margin-bottom: 20px;
+  border-left: 4px solid #3f51b5;
+}
+
+.answer-text {
+  font-size: 15px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.answer-meta {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+  color: #666;
+}
+
+.no-answers-card {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.no-answers-card mat-icon {
+  font-size: 48px;
+  width: 48px;
+  height: 48px;
+  color: #999;
+}
+
+.answer-form-section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.navigation-actions {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.answered-badge {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.unanswered-badge {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.debug-info {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.debug-info pre {
+  font-size: 12px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .question-detail-container {
+    padding: 10px;
+  }
+  
+  .ai-summary-actions {
+    flex-direction: column;
+  }
+  
+  .ai-summary-actions button {
+    width: 100%;
+  }
+}
+
+.manager-badge {
+  background-color: #ff9800;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  margin-left: 8px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-role {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.user-role.manager {
+  background-color: #ff9800;
+  color: white;
+}
+
+.user-role.employee {
+  background-color: #2196f3;
+  color: white;
+}
+
+.logout-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f;
+}

@@ -1,0 +1,159 @@
+<div class="question-detail-container">
+  <!-- Loading state -->
+  <div *ngIf="loading" class="loading-section">
+    <mat-spinner></mat-spinner>
+    <p>Loading question...</p>
+  </div>
+
+  <!-- Error state -->
+  <div *ngIf="error && !loading" class="error-section">
+    <mat-card class="error-card">
+      <mat-card-content>
+        <mat-icon color="warn">error</mat-icon>
+        <h3>Error loading question</h3>
+        <p>{{ error }}</p>
+        <button mat-raised-button color="primary" (click)="reloadQuestion()">
+          Retry
+        </button>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <!-- Question content -->
+  <div *ngIf="question && !loading" class="question-content">
+    <!-- AI Summary Section - Only for managers -->
+    <div class="ai-summary-section" *ngIf="isManager && !generatingSummary && !aiSummary">
+      <button mat-raised-button color="primary" (click)="generateAISummary()" class="ai-summary-button">
+        <mat-icon>auto_awesome</mat-icon>
+        Generate AI Summary
+      </button>
+    </div>
+
+    <!-- AI Summary Loading - Only for managers -->
+    <div *ngIf="generatingSummary && isManager" class="ai-summary-loading">
+      <mat-card class="ai-summary-card">
+        <mat-card-content>
+          <div class="loading-content">
+            <mat-spinner diameter="30"></mat-spinner>
+            <span>Generating AI summary...</span>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <!-- AI Summary Result - Only for managers -->
+    <div *ngIf="aiSummary && !generatingSummary && isManager" class="ai-summary-result">
+      <mat-card class="ai-summary-card">
+        <mat-card-header>
+          <mat-card-title>
+            <mat-icon color="primary">auto_awesome</mat-icon>
+            AI Summary (Generated on: {{ currentDate | date:'medium' }})
+          </mat-card-title>
+          <button mat-icon-button (click)="aiSummary = null" class="close-ai-summary">
+            <mat-icon>close</mat-icon>
+          </button>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="ai-summary-content">
+            <p>{{ aiSummary }}</p>
+          </div>
+          <div class="ai-summary-actions">
+            <button mat-button color="primary" (click)="generateAISummary()">
+              <mat-icon>refresh</mat-icon>
+              Regenerate
+            </button>
+            <button mat-button color="warn" (click)="aiSummary = null">
+              <mat-icon>close</mat-icon>
+              Close
+            </button>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <!-- AI Error Message - Only for managers -->
+    <div *ngIf="aiError && !generatingSummary && isManager" class="ai-error-section">
+      <mat-card class="error-card">
+        <mat-card-content>
+          <mat-icon color="warn">error</mat-icon>
+          <h4>AI Summary Error</h4>
+          <p>{{ aiError }}</p>
+          <button mat-button color="primary" (click)="generateAISummary()">
+            <mat-icon>refresh</mat-icon>
+            Try Again
+          </button>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <!-- Question Details Card -->
+    <mat-card class="question-card">
+      <mat-card-header>
+        <mat-card-title>{{ question.title }}</mat-card-title>
+        <mat-card-subtitle>
+          ID: {{ question.id }} |
+          <span *ngIf="question.answers && question.answers.length > 0" class="answered-badge">
+            Answered ({{ question.answers.length }})
+          </span>
+          <span *ngIf="!question.answers || question.answers.length === 0" class="unanswered-badge">
+            Unanswered
+          </span>
+          <span *ngIf="isManager" class="manager-badge">
+            Manager View
+          </span>
+        </mat-card-subtitle>
+      </mat-card-header>
+      
+      <mat-card-content>
+        <h4>Question:</h4>
+        <p class="question-text">{{ question.content }}</p>
+        
+        <!-- Answers Section -->
+        <div *ngIf="question.answers && question.answers.length > 0" class="answers-section">
+          <h4>Answers ({{ question.answers.length }}):</h4>
+          <mat-card *ngFor="let answer of question.answers; let i = index" class="answer-card">
+            <mat-card-header>
+              <mat-card-title>Answer {{ i + 1 }}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <p class="answer-text">{{ answer.content }}</p>
+              <div class="answer-meta">
+                <small>Answer ID: {{ answer.id }}</small>
+              </div>
+            </mat-card-content>
+          </mat-card>
+        </div>
+
+        <!-- No answers message -->
+        <div *ngIf="!question.answers || question.answers.length === 0" class="no-answers">
+          <mat-card class="no-answers-card">
+            <mat-card-content>
+              <mat-icon>help_outline</mat-icon>
+              <h4>No answers yet</h4>
+              <p>This question hasn't been answered yet.</p>
+            </mat-card-content>
+          </mat-card>
+        </div>
+
+        <!-- Answer Submission Form -->
+        <div class="answer-form-section">
+          <h4>Add Your Answer:</h4>
+          <mat-form-field appearance="outline" class="full-width">
+            <textarea matInput [(ngModel)]="answerContent" placeholder="Type your answer here..." rows="4"></textarea>
+          </mat-form-field>
+          <button mat-raised-button color="primary" (click)="submitAnswer()" [disabled]="!answerContent.trim()">
+            Submit Answer
+          </button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+
+    <!-- Navigation Button -->
+    <div class="navigation-actions">
+      <button mat-button (click)="backToList()">
+        <mat-icon>arrow_back</mat-icon>
+        Back to Questions List
+      </button>
+    </div>
+  </div>
+</div>

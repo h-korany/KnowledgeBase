@@ -1,0 +1,112 @@
+<div class="register-container max-w-md mx-auto mt-8 p-6 bg-white rounded-lg shadow-md">
+  <h2 class="text-2xl font-bold text-center mb-6 text-gray-800">Create Account</h2>
+  
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="space-y-4">
+    <!-- Email Field -->
+    <mat-form-field appearance="outline" class="w-full">
+      <mat-label>Email</mat-label>
+      <input matInput type="email" formControlName="email" placeholder="Enter your email">
+      <mat-icon matSuffix>email</mat-icon>
+      
+      <mat-error *ngIf="registerForm.get('email')?.hasError('required')">
+        Email is required
+      </mat-error>
+      <mat-error *ngIf="registerForm.get('email')?.hasError('email')">
+        Please enter a valid email address
+      </mat-error>
+    </mat-form-field>
+
+    <!-- Role Field -->
+    <mat-form-field appearance="outline" class="w-full">
+      <mat-label>Role</mat-label>
+      <mat-select formControlName="role">
+        <mat-option value="employee">Employee</mat-option>
+        <mat-option value="manager">Manager</mat-option>
+      </mat-select>
+      <mat-icon matSuffix>person</mat-icon>
+      
+      <mat-error *ngIf="registerForm.get('role')?.hasError('required')">
+        Role is required
+      </mat-error>
+    </mat-form-field>
+
+    <!-- Password Field -->
+    <mat-form-field appearance="outline" class="w-full">
+      <mat-label>Password</mat-label>
+      <input matInput [type]="hidePassword ? 'password' : 'text'" formControlName="password" placeholder="Enter your password">
+      <button mat-icon-button matSuffix (click)="hidePassword = !hidePassword" type="button">
+        <mat-icon>{{ hidePassword ? 'visibility_off' : 'visibility' }}</mat-icon>
+      </button>
+      
+      <mat-error *ngIf="registerForm.get('password')?.hasError('required')">
+        Password is required
+      </mat-error>
+      <mat-error *ngIf="registerForm.get('password')?.hasError('minlength')">
+        Password must be at least 6 characters long
+      </mat-error>
+    </mat-form-field>
+
+    <!-- Confirm Password Field -->
+    <mat-form-field appearance="outline" class="w-full">
+      <mat-label>Confirm Password</mat-label>
+      <input matInput [type]="hideConfirmPassword ? 'password' : 'text'" formControlName="confirmPassword" placeholder="Confirm your password">
+      <button mat-icon-button matSuffix (click)="hideConfirmPassword = !hideConfirmPassword" type="button">
+        <mat-icon>{{ hideConfirmPassword ? 'visibility_off' : 'visibility' }}</mat-icon>
+      </button>
+      
+      <mat-error *ngIf="registerForm.get('confirmPassword')?.hasError('required')">
+        Confirm Password is required
+      </mat-error>
+      <mat-error *ngIf="registerForm.hasError('passwordsMismatch') && registerForm.get('confirmPassword')?.valid">
+        Passwords do not match
+      </mat-error>
+    </mat-form-field>
+
+    <!-- Submit Button -->
+    <div class="flex justify-center mt-6">
+      <button 
+        mat-raised-button 
+        color="primary" 
+        type="submit"
+        class="w-full py-2"
+        [disabled]="registerForm.invalid || isLoading">
+        
+        <div class="flex items-center justify-center">
+          <mat-spinner diameter="20" *ngIf="isLoading" class="mr-2"></mat-spinner>
+          <span>{{ isLoading ? 'Creating Account...' : 'Create Account' }}</span>
+        </div>
+      </button>
+    </div>
+
+    <!-- Error Message -->
+    <div *ngIf="errorMessage" class="mt-4 p-3 bg-red-50 border border-red-200 rounded-md">
+      <div class="flex items-center text-red-700">
+        <mat-icon class="mr-2 text-red-500">error</mat-icon>
+        <span class="text-sm">{{ errorMessage }}</span>
+      </div>
+    </div>
+
+    <!-- Success Message -->
+    <div *ngIf="successMessage" class="mt-4 p-3 bg-green-50 border border-green-200 rounded-md">
+      <div class="flex items-center text-green-700">
+        <mat-icon class="mr-2 text-green-500">check_circle</mat-icon>
+        <span class="text-sm">{{ successMessage }}</span>
+      </div>
+    </div>
+  </form>
+
+  <!-- Login Redirect -->
+  <div class="mt-6 text-center">
+    <p class="text-gray-600">Already have an account?</p>
+    <a routerLink="/login" class="text-blue-600 hover:text-blue-800 font-medium">
+      Sign in here
+    </a>
+  </div>
+</div>
+<!-- Add this at the bottom of the register form -->
+<div class="login-link-section mt-6 text-center">
+  <p class="text-gray-600">Already have an account?</p>
+  <a routerLink="/login" class="text-blue-600 hover:text-blue-800 font-medium">
+    Sign in here
+  </a>
+</div>
