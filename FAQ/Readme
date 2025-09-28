@@ -1,8 +1,8 @@
 Setup:
-1- Decompress FAQ.UI 
-2- In command prompt Go to folder FAQ.UI and run npm install
-3- Then run ng serve --o
-4- Go to folder FAQ and open the solution and run it
+1- In command prompt Go to folder FAQ.UI and run npm install
+2- Then run ng serve --o
+3- Go to folder FAQ and open the solution and run it
+4- Attach FAQ database to the the sql server that exist in folder FAQ\database
 
 Testing the Application:
 1- Register a new user:
